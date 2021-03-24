@@ -1,0 +1,163 @@
+:root{
+    --red:#E50914;
+    --black:#141414;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex; /** alinhar **/
+    align-items: center;
+    justify-content:left;
+    margin-left: 1rem;
+}
+
+.logo{
+    height: 60px;
+    margin-left: 5px;
+    
+}
+
+.logon{
+    display: flex; /** alinhar **/
+    align-items: center;
+    justify-content:left;
+    margin-left: 1rem;
+    height: 35px; /*tamanho*/
+    margin-top: -10px;
+    margin-right: 8px; /* espaçamento no N*/
+    
+}
+
+.nome{
+    font-size: 18px;
+    letter-spacing: 0.5rem;
+   
+    padding-left: 1rem;
+    display: flex;
+}
+
+
+ 
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-left: 17px;
+    
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*serie/filme principal*/
+
+.principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../img/chihiro capa.gif') center no-repeat;
+    background-size: cover;
+    
+    height: 600px;
+    padding-top: 10rem;
+    display: flex;
+    
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.titulo{
+    margin: 0%;
+    margin-left: 1.5rem;
+    font-size: 70px;
+
+}
+
+.principal, .descricao{
+    margin-bottom: 3px;
+}
+
+.descricao{
+    margin: 0%;
+    margin-left: 1.5rem;
+    margin-top: 3px;
+    line-height: 1.5;
+}
+
+.btn-info, .btn-assistir{
+    border:none;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 18px;
+
+    border-radius: 5px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.btn-assistir{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+
+.btn-info{
+    background-color: rgba(255, 255, 255, 0.521);
+    color: white;
+    
+}
+.btn-assistir:hover, .btn-info:hover{
+    background-color: rgba(245, 245, 245, 0.74);
+    
+}
+
+.btn-info i, .btn-assistir i{
+    margin-right: 10px;
+}
+
+.botoes{
+   margin-top: 18px;
+   margin-left: 2.5rem;
+}
+
+.container{
+    margin-left: 10px;
+}
+
+.container{
+    width: 70%;
+}
+
+.box-film{
+    height: 550px;
+    width: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0%;
+}
+
+.mi{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.assistir{
+    text-decoration: none;
+    color: black;
+}

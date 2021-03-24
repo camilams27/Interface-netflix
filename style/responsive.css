@@ -1,0 +1,23 @@
+@media screen and (max-width:700px){ /* no maximo de 700px a tela obedece a formatação seguinte*/
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botoes{
+        margin-top: 5px;
+        width: 300px;
+        
+    }
+
+    .principal{
+        height: 100%;
+
+    }
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
