@@ -3,6 +3,10 @@
     --black:#141414;
 }
 
+body{
+    margin: 0%;
+}
+
 a{
     margin: 0;
     padding: 0;
@@ -22,10 +26,12 @@ header .container{
     margin-left: 1rem;
 }
 
+
 .logo{
-    height: 60px;
+    height: 38px;
     margin-left: 5px;
-    
+    padding-bottom: 1vh;
+    padding-top: 1vh;
 }
 
 .logon{
